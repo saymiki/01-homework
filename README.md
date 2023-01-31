@@ -36,7 +36,7 @@ THEN I find a concise, descriptive title
 
 <STRONG> DEPLOYMENT </strong>
 
-![alt text](homework/01-homework/assets/images/Homework.png?raw=true)
+![alt text](https://github.com/saymiki/01-homework/blob/main/assets/images/Homework.png?raw=true)
 
 <STRONG> LINK </strong>
 
