@@ -29,14 +29,23 @@
     </header>
 
 <main>
+    <!--
+        used section element to catagorize the area of the website the html would work on
+    -->
     <section>
     <article class="hero"></article>
     <article class="content">
         <article class="search-engine-optimization">
-
+<!--
+    figure element was implemented so that for future updates, developer can add figcaption for further accessability
+-->
            <figure>
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
-        </figure>
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="notebook with components of SEO" />
+           </figure>
+            
+           <!--
+            added alt element after img to give accessibility for those with screen readers
+           -->
 
             <h2>Search Engine Optimization</h2>
             <p>
@@ -46,7 +55,7 @@
         <article id="online-reputation-management" class="online-reputation-management">
 
            <figure>
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="image of a graphic chart entitled Reputation" />
         </figure>
 
             <h2>Online Reputation Management</h2>
@@ -57,7 +66,7 @@
         <article id="social-media-marketing" class="social-media-marketing">
 
             <figure>
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="people gathered at a table on social media" />
         </figure>
 
             <h2>Social Media Marketing</h2>
@@ -71,7 +80,7 @@
             <h3>Lead Generation</h3>
 
             <figure>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt="gear and money symbol" />
         </figure>
 
             <p>
@@ -83,7 +92,7 @@
             <h3>Brand Awareness</h3>
 
             <figure>
-                <img src="./assets/images/brand-awareness.png" />
+                <img src="./assets/images/brand-awareness.png" alt="lightbulb symbol"/>
             </figure>
             
             <p>
@@ -94,7 +103,7 @@
             <h3>Cost Management</h3>
 
             <figure>
-                <img src="./assets/images/cost-management.png" />
+                <img src="./assets/images/cost-management.png" alt="symbol of a gear cog and money" />
             </figure>
             
             <p>
@@ -103,7 +112,9 @@
         </article>
     </section>
 </main>
-
+<!--
+    added footer element to clearly define the footer portion of the site and to deferenciate from <main>, still kept within <body> element bc that's what will display on page
+-->
 <footer class="footer">
     <h2>Made with ❤️️ by Horiseon</h2>
     <p>
